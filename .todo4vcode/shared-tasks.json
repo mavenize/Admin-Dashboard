@@ -321,28 +321,30 @@
       "tags": [
         "AD-09",
         "aside",
-        "grid"
+        "grid",
+        "index.html:307-339",
+        "styles/style.css:317-338"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928380,
       "order": 9000,
       "subtasks": [
         {
           "id": "AD-09-1",
           "text": "@tegan, @morgan, @kendall, @alex rows",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-09-2",
           "text": "Round avatars",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-09-3",
           "text": "Handle + project text styling",
-          "completed": false
+          "completed": true
         }
       ]
     },
