@@ -241,38 +241,41 @@
         "AD-07",
         "main",
         "cards",
-        "grid"
+        "grid",
+        "index.html:144-281",
+        "styles/style.css:54-60",
+        "styles/style.css:218-272"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928378,
       "order": 7000,
       "subtasks": [
         {
           "id": "AD-07-1",
           "text": "Section heading",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-07-2",
           "text": "Auto-fit card grid",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-07-3",
           "text": "Card component (border-left accent, shadow, radius)",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-07-4",
           "text": "6 cards: Super Cool Project, Less Cool Project, Impossible App, Easy Peasy App, Ad Blocker, Money Maker",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-07-5",
           "text": "Action icons row aligned bottom-right",
-          "completed": false
+          "completed": true
         }
       ]
     },
