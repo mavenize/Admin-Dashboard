@@ -286,28 +286,31 @@
       "tags": [
         "AD-08",
         "aside",
-        "grid"
+        "grid",
+        "index.html:282-306",
+        "styles/style.css:54-63",
+        "styles/style.css:278-315"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928379,
       "order": 8000,
       "subtasks": [
         {
           "id": "AD-08-1",
           "text": "Main grid columns 1fr 360px (projects / aside)",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-08-2",
           "text": "Site Maintenance, Community Share Day, Updated Privacy Policy",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-08-3",
           "text": "Dividers between items",
-          "completed": false
+          "completed": true
         }
       ]
     },
