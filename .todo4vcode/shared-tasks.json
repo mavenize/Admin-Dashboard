@@ -476,28 +476,30 @@
       "description": "Add a screenshot, a short description and credits (MDI, avatar source) to README.md.\n\nCommit: docs(AD-13): update README with preview and credits\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
       "tags": [
         "AD-13",
-        "docs"
+        "docs",
+        "README.md:1-38",
+        "docs/preview.png"
       ],
       "priority": "Could",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928384,
       "order": 13000,
       "subtasks": [
         {
           "id": "AD-13-1",
           "text": "Screenshot of finished page",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-13-2",
           "text": "Description + how to run",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-13-3",
           "text": "Credits for icons and avatars",
-          "completed": false
+          "completed": true
         }
       ]
     }
