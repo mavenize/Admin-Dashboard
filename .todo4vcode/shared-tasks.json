@@ -1,0 +1,477 @@
+{
+  "format": "todo4vcode-shared-tasks",
+  "version": "1.0.0",
+  "tasks": [
+    {
+      "id": "AD-01",
+      "text": "AD-01 · Project scaffold",
+      "description": "Create index.html, styles/reset.css, styles/style.css with :root design tokens, and .gitignore.\n\nCommit: chore(AD-01): scaffold html/css project with Roboto and design tokens\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-01",
+        "setup",
+        "index.html:1-19",
+        "styles/reset.css:1-47",
+        "styles/style.css:1-24",
+        ".gitignore:1"
+      ],
+      "priority": "Must",
+      "status": "In Progress",
+      "completed": false,
+      "createdAt": 1793794928372,
+      "order": 1000,
+      "subtasks": [
+        {
+          "id": "AD-01-1",
+          "text": "index.html: doctype, meta charset/viewport, title",
+          "completed": true
+        },
+        {
+          "id": "AD-01-2",
+          "text": "Link Roboto (400/500/700) from Google Fonts",
+          "completed": true
+        },
+        {
+          "id": "AD-01-3",
+          "text": "styles/reset.css minimal reset",
+          "completed": true
+        },
+        {
+          "id": "AD-01-4",
+          "text": "styles/style.css :root tokens (colors, radius, shadow, font)",
+          "completed": true
+        },
+        {
+          "id": "AD-01-5",
+          "text": ".gitignore with .DS_Store",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "id": "AD-02",
+      "text": "AD-02 · Assets: icons and avatars",
+      "description": "Download 15 Material Design Icons SVGs into assets/icons/ and 4 free avatar illustrations into assets/images/.\n\nCommit: chore(AD-02): add MDI icons and avatar images\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-02",
+        "assets"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928373,
+      "order": 2000,
+      "subtasks": [
+        {
+          "id": "AD-02-1",
+          "text": "MDI sidebar icons: view-dashboard, home, card-account-details, message, history, file-multiple, account-group, cog, help-box, shield-check",
+          "completed": false
+        },
+        {
+          "id": "AD-02-2",
+          "text": "MDI header/card icons: magnify, bell-ring-outline, star-plus-outline, eye-plus-outline, source-fork",
+          "completed": false
+        },
+        {
+          "id": "AD-02-3",
+          "text": "Avatars: morgan, tegan, kendall, alex",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-03",
+      "text": "AD-03 · Page shell grid",
+      "description": "Body grid: columns 280px 1fr, rows auto 1fr, areas \"sidebar header\" / \"sidebar main\". Use placeholder backgrounds to check the layout.\n\nCommit: feat(AD-03): add main page grid layout\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-03",
+        "layout",
+        "grid"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928374,
+      "order": 3000,
+      "subtasks": [
+        {
+          "id": "AD-03-1",
+          "text": "Semantic containers: nav/aside sidebar, header, main",
+          "completed": false
+        },
+        {
+          "id": "AD-03-2",
+          "text": "grid-template-areas on body",
+          "completed": false
+        },
+        {
+          "id": "AD-03-3",
+          "text": "Full viewport height, main background color",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-04",
+      "text": "AD-04 · Sidebar navigation",
+      "description": "Logo row plus two nav groups (Home, Profile, Messages, History, Tasks, Communities / Settings, Support, Privacy). Each item is a grid auto 1fr with an inline SVG icon (currentColor).\n\nCommit: feat(AD-04): build sidebar navigation\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-04",
+        "sidebar",
+        "grid"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928375,
+      "order": 4000,
+      "subtasks": [
+        {
+          "id": "AD-04-1",
+          "text": "Dashboard logo + title",
+          "completed": false
+        },
+        {
+          "id": "AD-04-2",
+          "text": "Primary nav group (6 items)",
+          "completed": false
+        },
+        {
+          "id": "AD-04-3",
+          "text": "Secondary nav group (3 items) with gap above",
+          "completed": false
+        },
+        {
+          "id": "AD-04-4",
+          "text": "White text/icons, hover state",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-05",
+      "text": "AD-05 · Header: search and user bar",
+      "description": "Header row 1: search icon + rounded search input, then bell icon, small avatar and user name.\n\nCommit: feat(AD-05): build header search and user bar\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-05",
+        "header",
+        "grid"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928376,
+      "order": 5000,
+      "subtasks": [
+        {
+          "id": "AD-05-1",
+          "text": "Search icon + pill-shaped input",
+          "completed": false
+        },
+        {
+          "id": "AD-05-2",
+          "text": "Bell icon",
+          "completed": false
+        },
+        {
+          "id": "AD-05-3",
+          "text": "Small avatar + \"Morgan Oakley\"",
+          "completed": false
+        },
+        {
+          "id": "AD-05-4",
+          "text": "Grid alignment of row 1",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-06",
+      "text": "AD-06 · Header: greeting and action buttons",
+      "description": "Header row 2: large avatar, \"Hi there,\" + \"Morgan Oakley (@morgan)\", and New / Upload / Share pill buttons.\n\nCommit: feat(AD-06): build header greeting and action buttons\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-06",
+        "header",
+        "grid"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928377,
+      "order": 6000,
+      "subtasks": [
+        {
+          "id": "AD-06-1",
+          "text": "Large avatar with accent background",
+          "completed": false
+        },
+        {
+          "id": "AD-06-2",
+          "text": "Greeting text block",
+          "completed": false
+        },
+        {
+          "id": "AD-06-3",
+          "text": "New / Upload / Share buttons (blue pills)",
+          "completed": false
+        },
+        {
+          "id": "AD-06-4",
+          "text": "Button hover states",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-07",
+      "text": "AD-07 · Projects section",
+      "description": "\"Your Projects\" heading and card grid repeat(auto-fit, minmax(300px, 1fr)). 6 cards with yellow left border, title, text, and star/eye/fork icon actions.\n\nCommit: feat(AD-07): build project cards grid\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-07",
+        "main",
+        "cards",
+        "grid"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928378,
+      "order": 7000,
+      "subtasks": [
+        {
+          "id": "AD-07-1",
+          "text": "Section heading",
+          "completed": false
+        },
+        {
+          "id": "AD-07-2",
+          "text": "Auto-fit card grid",
+          "completed": false
+        },
+        {
+          "id": "AD-07-3",
+          "text": "Card component (border-left accent, shadow, radius)",
+          "completed": false
+        },
+        {
+          "id": "AD-07-4",
+          "text": "6 cards: Super Cool Project, Less Cool Project, Impossible App, Easy Peasy App, Ad Blocker, Money Maker",
+          "completed": false
+        },
+        {
+          "id": "AD-07-5",
+          "text": "Action icons row aligned bottom-right",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-08",
+      "text": "AD-08 · Announcements panel",
+      "description": "Right column: \"Announcements\" heading and card with 3 items separated by dividers.\n\nCommit: feat(AD-08): add announcements panel\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-08",
+        "aside",
+        "grid"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928379,
+      "order": 8000,
+      "subtasks": [
+        {
+          "id": "AD-08-1",
+          "text": "Main grid columns 1fr 360px (projects / aside)",
+          "completed": false
+        },
+        {
+          "id": "AD-08-2",
+          "text": "Site Maintenance, Community Share Day, Updated Privacy Policy",
+          "completed": false
+        },
+        {
+          "id": "AD-08-3",
+          "text": "Dividers between items",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-09",
+      "text": "AD-09 · Trending panel",
+      "description": "\"Trending\" heading and card with 4 rows (avatar + handle + project), each a grid auto 1fr.\n\nCommit: feat(AD-09): add trending panel\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-09",
+        "aside",
+        "grid"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928380,
+      "order": 9000,
+      "subtasks": [
+        {
+          "id": "AD-09-1",
+          "text": "@tegan, @morgan, @kendall, @alex rows",
+          "completed": false
+        },
+        {
+          "id": "AD-09-2",
+          "text": "Round avatars",
+          "completed": false
+        },
+        {
+          "id": "AD-09-3",
+          "text": "Handle + project text styling",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-10",
+      "text": "AD-10 · Polish and accessibility",
+      "description": "Match spacing and sizes against the PNG. Add focus-visible states, alt texts, aria-labels on icon-only buttons, and check semantic tags.\n\nCommit: style(AD-10): polish spacing and accessibility to match design\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-10",
+        "polish",
+        "a11y"
+      ],
+      "priority": "Should",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928381,
+      "order": 10000,
+      "subtasks": [
+        {
+          "id": "AD-10-1",
+          "text": "Side-by-side comparison with the PNG at ~1440px",
+          "completed": false
+        },
+        {
+          "id": "AD-10-2",
+          "text": "focus-visible styles",
+          "completed": false
+        },
+        {
+          "id": "AD-10-3",
+          "text": "alt / aria-label coverage",
+          "completed": false
+        },
+        {
+          "id": "AD-10-4",
+          "text": "Semantic structure review",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-11",
+      "text": "AD-11 · Tablet responsive layout (<=1024px)",
+      "description": "Main becomes one column with the aside below the projects (Announcements and Trending side by side). Sidebar narrows to icons only.\n\nCommit: feat(AD-11): add tablet responsive layout\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-11",
+        "responsive"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928382,
+      "order": 11000,
+      "subtasks": [
+        {
+          "id": "AD-11-1",
+          "text": "Media query <=1024px",
+          "completed": false
+        },
+        {
+          "id": "AD-11-2",
+          "text": "Icon-only sidebar (labels visually hidden)",
+          "completed": false
+        },
+        {
+          "id": "AD-11-3",
+          "text": "Main single column, aside 2-column grid",
+          "completed": false
+        },
+        {
+          "id": "AD-11-4",
+          "text": "Check at 1024px and 768px",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-12",
+      "text": "AD-12 · Mobile responsive layout (<=640px)",
+      "description": "Single-column body: the sidebar turns into a top bar with a horizontally scrollable icon nav. Header rows stack and the buttons wrap. Cards and aside go to 1 column.\n\nCommit: feat(AD-12): add mobile responsive layout\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-12",
+        "responsive"
+      ],
+      "priority": "Must",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928383,
+      "order": 12000,
+      "subtasks": [
+        {
+          "id": "AD-12-1",
+          "text": "Media query <=640px",
+          "completed": false
+        },
+        {
+          "id": "AD-12-2",
+          "text": "Sidebar to top bar",
+          "completed": false
+        },
+        {
+          "id": "AD-12-3",
+          "text": "Header stacking",
+          "completed": false
+        },
+        {
+          "id": "AD-12-4",
+          "text": "Single-column cards and aside",
+          "completed": false
+        },
+        {
+          "id": "AD-12-5",
+          "text": "No horizontal page scroll at 375px",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "AD-13",
+      "text": "AD-13 · README update",
+      "description": "Add a screenshot, a short description and credits (MDI, avatar source) to README.md.\n\nCommit: docs(AD-13): update README with preview and credits\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
+      "tags": [
+        "AD-13",
+        "docs"
+      ],
+      "priority": "Could",
+      "status": "Todo",
+      "completed": false,
+      "createdAt": 1793794928384,
+      "order": 13000,
+      "subtasks": [
+        {
+          "id": "AD-13-1",
+          "text": "Screenshot of finished page",
+          "completed": false
+        },
+        {
+          "id": "AD-13-2",
+          "text": "Description + how to run",
+          "completed": false
+        },
+        {
+          "id": "AD-13-3",
+          "text": "Credits for icons and avatars",
+          "completed": false
+        }
+      ]
+    }
+  ]
+}
