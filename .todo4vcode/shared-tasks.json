@@ -200,33 +200,36 @@
       "tags": [
         "AD-06",
         "header",
-        "grid"
+        "grid",
+        "index.html:130-141",
+        "styles/style.css:42-52",
+        "styles/style.css:170-213"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928377,
       "order": 6000,
       "subtasks": [
         {
           "id": "AD-06-1",
           "text": "Large avatar with accent background",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-06-2",
           "text": "Greeting text block",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-06-3",
           "text": "New / Upload / Share buttons (blue pills)",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-06-4",
           "text": "Button hover states",
-          "completed": false
+          "completed": true
         }
       ]
     },

@@ -41,9 +41,9 @@ body {
 
 .header {
   grid-area: header;
-  min-height: 160px; /* placeholder until AD-06 adds the greeting row */
   display: grid;
   align-content: start;
+  row-gap: 16px;
   padding: 16px 48px;
   background-color: var(--surface);
   box-shadow: var(--shadow-card);
@@ -165,4 +165,49 @@ body {
 .user-name {
   font-size: 1.125rem;
   font-weight: 700;
+}
+
+/* Header: greeting and action buttons */
+.header-greeting {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.avatar-large {
+  width: 68px;
+  height: 68px;
+  background-color: var(--accent);
+}
+
+.greeting-hello {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.greeting-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.actions {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr; /* equal-width buttons */
+  column-gap: 24px;
+}
+
+.button {
+  padding: 8px 20px;
+  border-radius: var(--radius-pill);
+  background-color: var(--blue);
+  color: var(--surface);
+  font-weight: 700;
+  transition: background-color 0.15s ease;
+}
+
+.button:hover {
+  background-color: var(--blue-dark);
 }
