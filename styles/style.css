@@ -54,8 +54,11 @@ body {
 .main {
   grid-area: main;
   display: grid;
-  align-content: start;
-  padding: 32px 20px;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  grid-template-areas: "projects aside";
+  align-items: start;
+  column-gap: 24px;
+  padding: 32px 32px 32px 20px;
   background-color: var(--bg);
 }
 
@@ -229,6 +232,7 @@ body {
 
 /* Projects */
 .projects {
+  grid-area: projects;
   display: grid;
   row-gap: 16px;
 }
@@ -269,4 +273,66 @@ body {
 .project-actions .icon {
   width: 24px;
   height: 24px;
+}
+
+/* Aside panels */
+.aside {
+  grid-area: aside;
+  display: grid;
+  row-gap: 32px;
+}
+
+.panel {
+  display: grid;
+  row-gap: 16px;
+}
+
+/* Announcements */
+.announcements {
+  display: grid;
+  padding: 16px 24px;
+}
+
+.announcement {
+  display: grid;
+  row-gap: 2px;
+  padding: 16px 8px;
+}
+
+.announcement + .announcement {
+  border-top: 1px solid var(--divider);
+}
+
+.announcement-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.announcement-text {
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.25;
+}
+
+/* Trending */
+.trending {
+  display: grid;
+  row-gap: 20px;
+  padding: 20px 20px 24px;
+}
+
+.trending-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.avatar-medium {
+  width: 48px;
+  height: 48px;
+}
+
+.trending-project {
+  color: var(--muted);
 }
