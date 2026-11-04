@@ -15,8 +15,8 @@
         ".gitignore:1"
       ],
       "priority": "Must",
-      "status": "In Progress",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928372,
       "order": 1000,
       "subtasks": [
@@ -53,28 +53,30 @@
       "description": "Download 15 Material Design Icons SVGs into assets/icons/ and 4 free avatar illustrations into assets/images/.\n\nCommit: chore(AD-02): add MDI icons and avatar images\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
       "tags": [
         "AD-02",
-        "assets"
+        "assets",
+        "assets/icons/",
+        "assets/images/"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928373,
       "order": 2000,
       "subtasks": [
         {
           "id": "AD-02-1",
           "text": "MDI sidebar icons: view-dashboard, home, card-account-details, message, history, file-multiple, account-group, cog, help-box, shield-check",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-02-2",
           "text": "MDI header/card icons: magnify, bell-ring-outline, star-plus-outline, eye-plus-outline, source-fork",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-02-3",
           "text": "Avatars: morgan, tegan, kendall, alex",
-          "completed": false
+          "completed": true
         }
       ]
     },
