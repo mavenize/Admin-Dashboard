@@ -87,28 +87,30 @@
       "tags": [
         "AD-03",
         "layout",
-        "grid"
+        "grid",
+        "index.html:18-24",
+        "styles/style.css:26-54"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928374,
       "order": 3000,
       "subtasks": [
         {
           "id": "AD-03-1",
           "text": "Semantic containers: nav/aside sidebar, header, main",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-03-2",
           "text": "grid-template-areas on body",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-03-3",
           "text": "Full viewport height, main background color",
-          "completed": false
+          "completed": true
         }
       ]
     },

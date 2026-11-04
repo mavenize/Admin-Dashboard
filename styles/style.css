@@ -22,3 +22,33 @@ body {
   color: var(--text);
   background-color: var(--bg);
 }
+
+/* Page shell */
+body {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main";
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: var(--blue);
+  color: var(--surface);
+}
+
+.header {
+  grid-area: header;
+  min-height: 160px; /* placeholder until AD-05/AD-06 add content */
+  background-color: var(--surface);
+  box-shadow: var(--shadow-card);
+  position: relative; /* keep the shadow above main */
+  z-index: 1;
+}
+
+.main {
+  grid-area: main;
+  background-color: var(--bg);
+}
