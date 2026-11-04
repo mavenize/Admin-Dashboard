@@ -397,33 +397,34 @@
       "description": "Main becomes one column with the aside below the projects (Announcements and Trending side by side). Sidebar narrows to icons only.\n\nCommit: feat(AD-11): add tablet responsive layout\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
       "tags": [
         "AD-11",
-        "responsive"
+        "responsive",
+        "styles/style.css:389-455"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928382,
       "order": 11000,
       "subtasks": [
         {
           "id": "AD-11-1",
           "text": "Media query <=1024px",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-11-2",
           "text": "Icon-only sidebar (labels visually hidden)",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-11-3",
           "text": "Main single column, aside 2-column grid",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-11-4",
           "text": "Check at 1024px and 768px",
-          "completed": false
+          "completed": true
         }
       ]
     },

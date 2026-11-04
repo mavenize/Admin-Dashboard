@@ -385,3 +385,71 @@ body {
 .search-input:focus-visible {
   outline-offset: 0;
 }
+
+/* Tablet (<=1024px) */
+@media (max-width: 1024px) {
+  body {
+    grid-template-columns: 80px 1fr;
+  }
+
+  /* icon-only sidebar; labels stay readable for screen readers */
+  .sidebar {
+    justify-items: center;
+    padding: 16px 12px;
+  }
+
+  .logo,
+  .nav-link {
+    grid-template-columns: auto;
+  }
+
+  .logo span,
+  .nav-link span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .nav-link {
+    padding: 12px;
+  }
+
+  .header {
+    padding: 16px 32px;
+  }
+
+  .header-top {
+    column-gap: 32px;
+  }
+
+  .greeting-name {
+    font-size: 1.25rem;
+  }
+
+  .actions {
+    column-gap: 16px;
+  }
+
+  .button {
+    padding: 9px 20px;
+  }
+
+  .main {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "projects"
+      "aside";
+    align-content: start;
+    row-gap: 32px;
+    padding: 32px 24px;
+  }
+
+  .aside {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: start;
+    column-gap: 24px;
+  }
+}
