@@ -355,33 +355,39 @@
       "tags": [
         "AD-10",
         "polish",
-        "a11y"
+        "a11y",
+        "styles/style.css:1-345",
+        "styles/style.css:349-387",
+        "index.html:19",
+        "index.html:32",
+        "index.html:112-120",
+        "index.html:147-282"
       ],
       "priority": "Should",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928381,
       "order": 10000,
       "subtasks": [
         {
           "id": "AD-10-1",
           "text": "Side-by-side comparison with the PNG at ~1440px",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-10-2",
           "text": "focus-visible styles",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-10-3",
           "text": "alt / aria-label coverage",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-10-4",
           "text": "Semantic structure review",
-          "completed": false
+          "completed": true
         }
       ]
     },

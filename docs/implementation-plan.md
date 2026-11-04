@@ -30,12 +30,12 @@ Icons are placed in the HTML as **inline `<svg>` with `fill="currentColor"`**, s
 - Font: `Roboto`, weights 400/500/700
 
 ## Layout (grid)
-- **Body:** `grid-template-columns: 280px 1fr; grid-template-rows: auto 1fr;` with areas `"sidebar header" "sidebar main"`.
+- **Body:** `grid-template-columns: 300px 1fr; grid-template-rows: auto 1fr;` with areas `"sidebar header" "sidebar main"`.
 - **Sidebar:** a grid of rows (logo, primary nav, gap, secondary nav). Each nav item is a grid `auto 1fr` (icon + label).
 - **Header:** a 2-row grid.
   - Row 1: search (icon + input) and the bell, avatar and name.
   - Row 2: greeting avatar, "Hi there / Morgan Oakley (@morgan)" and 3 buttons.
-- **Main:** `grid-template-columns: 1fr 360px`, with areas `"projects aside"`.
+- **Main:** `grid-template-columns: 1fr 280px`, with areas `"projects aside"`.
   - **Projects:** `repeat(auto-fit, minmax(300px, 1fr))`, which gives 2 columns at desktop width.
   - **Project card:** a grid with title, text and an actions row aligned to the end. Its yellow left border comes from `border-left: 8px solid var(--accent)`.
   - **Aside:** a grid stacking the Announcements card (3 items, separated by bottom borders) and the Trending card (4 rows, each a grid `auto 1fr`: avatar + handle/project).
