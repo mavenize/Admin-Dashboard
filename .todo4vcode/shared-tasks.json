@@ -434,38 +434,39 @@
       "description": "Single-column body: the sidebar turns into a top bar with a horizontally scrollable icon nav. Header rows stack and the buttons wrap. Cards and aside go to 1 column.\n\nCommit: feat(AD-12): add mobile responsive layout\nLinking: every commit for this task uses the task ID as scope. When done, add code-reference tags (e.g. index.html:12-48) to this task.\nPlan: docs/implementation-plan.md",
       "tags": [
         "AD-12",
-        "responsive"
+        "responsive",
+        "styles/style.css:457-548"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928383,
       "order": 12000,
       "subtasks": [
         {
           "id": "AD-12-1",
           "text": "Media query <=640px",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-12-2",
           "text": "Sidebar to top bar",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-12-3",
           "text": "Header stacking",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-12-4",
           "text": "Single-column cards and aside",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-12-5",
           "text": "No horizontal page scroll at 375px",
-          "completed": false
+          "completed": true
         }
       ]
     },
