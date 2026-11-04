@@ -160,33 +160,36 @@
       "tags": [
         "AD-05",
         "header",
-        "grid"
+        "grid",
+        "index.html:108-129",
+        "styles/style.css:42-52",
+        "styles/style.css:109-168"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928376,
       "order": 5000,
       "subtasks": [
         {
           "id": "AD-05-1",
           "text": "Search icon + pill-shaped input",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-05-2",
           "text": "Bell icon",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-05-3",
           "text": "Small avatar + \"Morgan Oakley\"",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-05-4",
           "text": "Grid alignment of row 1",
-          "completed": false
+          "completed": true
         }
       ]
     },
