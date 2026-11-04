@@ -121,33 +121,35 @@
       "tags": [
         "AD-04",
         "sidebar",
-        "grid"
+        "grid",
+        "index.html:19-106",
+        "styles/style.css:56-104"
       ],
       "priority": "Must",
-      "status": "Todo",
-      "completed": false,
+      "status": "Done",
+      "completed": true,
       "createdAt": 1793794928375,
       "order": 4000,
       "subtasks": [
         {
           "id": "AD-04-1",
           "text": "Dashboard logo + title",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-04-2",
           "text": "Primary nav group (6 items)",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-04-3",
           "text": "Secondary nav group (3 items) with gap above",
-          "completed": false
+          "completed": true
         },
         {
           "id": "AD-04-4",
           "text": "White text/icons, hover state",
-          "completed": false
+          "completed": true
         }
       ]
     },
